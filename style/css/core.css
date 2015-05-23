@@ -1,0 +1,1063 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 1920px;
+    min-width: 1050px !important;
+    background: url('../img/wave_crashing_on_rock-wallpaper-1920x1080.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.head-container {
+    position: relative;
+    width: 1050px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.header-inner {
+    padding: 15px 25px 40px 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.headLogo {
+    display: block;
+    float: left;
+    width: 120px;
+}
+
+.headText {
+    margin-top: 60px;
+    display: inline-block;
+}
+
+.opacity {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 140px;
+    width: 1050px;
+    padding: 0;
+    background: #000;
+    opacity: 0.8;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: block;
+}
+
+#menublock {
+    background-color: #1d2229;
+    text-transform: uppercase;
+    color: #c1c1c1;
+    z-index: 999;
+    position: relative;
+    width: 1050px;
+    margin: 0 auto;
+    line-height: 36px;
+    height: 36px;
+    text-align: center;
+    font-size: 16px;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: #d8d8d8;
+    padding: 15px 15px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    display: block;
+}
+
+.footer {
+    margin: 0 auto 10px auto;
+    text-align: center;
+    height: 100px;
+    width: 1050px;
+    padding: 0;
+    background: #1d2229;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.footerText {
+    color: #dedede;
+    text-align: center;
+    font-size: 14px;
+    line-height: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100px;
+}
+
+
+.content {
+    width: 1050px;
+    min-height: 550px;
+    padding: 0 0 30px 0;
+    margin: 0 auto;
+    position: relative;
+    background-image: url('../img/halftone.png');
+    -webkit-box-shadow:  rgba(0, 0, 0, 0.4) 0 0 3px 0;
+    -moz-box-shadow:  rgba(0, 0, 0, 0.4) 0 0 3px 0;
+    -o-box-shadow:  rgba(0, 0, 0, 0.4) 0 0 3px 0;
+    box-shadow:  rgba(0, 0, 0, 0.4) 0 0 3px 0;
+}
+
+.main {
+    padding-top: 50px;
+    min-height: 1000px;
+}
+
+
+.imgText {
+    margin-top: 150px;
+    margin-left: 100px;
+    position: absolute;
+    display: block;
+    background-color: rgba(5, 5, 11, 0.90);
+    color: #cacaca;
+    padding: 5px;
+}
+
+.mainVideo {
+    position: relative;
+    width: 1050px;
+    height: 430px;
+    background-image: url('../img/try6.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.mainTableHeading {
+    font-size: 20px;
+    color: #252a2f;
+    font-weight: bold;
+}
+
+.mainTableContent
+{
+    padding: 10px 75px;
+    color: #181b22;
+    font-size: 14pt;
+}
+
+.mainHR1
+{
+    color: #252a2f;
+    margin-top: 50px;
+}
+
+.mainHR2
+{
+    color: #252a2f;
+    margin-bottom: 20px;
+}
+
+.mainLineHeading
+{
+    color: rgba(135, 35, 35, 0.94);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.mainLineContent
+{
+
+    color: #252a2f;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+nav a:hover
+{
+    background: rgba(135, 35, 35, 0.94);
+}
+
+p
+{
+    font-size: 17px;
+    color: #46403c;
+    padding-left: 40px;
+}
+
+.mainDiv
+{
+    height: 350px;
+    position: absolute;
+    padding: 20px 50px 0 50px;
+}
+
+.mainDivHeading
+{
+    color: #252a2f;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 25px;
+    margin-left: 100px;
+}
+
+.mainDivPic
+{
+    background-image: url("../img/deer.jpg");
+    background-size: cover;
+    float: left;
+    width: 220px;
+    height: 200px;
+    margin: 6px 28px 6px 100px;
+    border-radius: 5px;
+}
+
+.mainDivText
+{
+    color: #252a2f;
+    font-size: 17px;
+    margin-left: 100px;
+    width: 770px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: oblique;
+}
+
+.courses
+{
+    padding-top: 50px;
+}
+
+#logo1 {
+    background-image: url("../img/veikalaFoto.jpg");
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    -webkit-box-shadow:  rgba(0, 0, 0, 0.5) 0 0 10px 0;
+    -moz-box-shadow:  rgba(0, 0, 0, 0.5) 0 0 10px 0;
+    -o-box-shadow:  rgba(0, 0, 0, 0.5) 0 0 10px 0;
+    box-shadow:  rgba(0, 0, 0, 0.5) 0 0 10px 0;
+}
+
+#logo2 {
+    background-image: url("../img/class.jpg");
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    -webkit-box-shadow:  rgba(0, 0, 0, 0.5) 0 0 10px 0;
+    -moz-box-shadow:  rgba(0, 0, 0, 0.5) 0 0 10px 0;
+    -o-box-shadow:  rgba(0, 0, 0, 0.5) 0 0 10px 0;
+    box-shadow:  rgba(0, 0, 0, 0.5) 0 0 10px 0;
+}
+
+#logo3 {
+    background-image: url('../img/Shooting_range_near_Pittsburgh_-_outside_11.JPG');
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    -webkit-box-shadow:  rgba(0, 0, 0, 0.5) 0 0 10px 0;
+    -moz-box-shadow:  rgba(0, 0, 0, 0.5) 0 0 10px 0;
+    -o-box-shadow:  rgba(0, 0, 0, 0.5) 0 0 10px 0;
+    box-shadow:  rgba(0, 0, 0, 0.5) 0 0 10px 0;
+}
+
+.column1 {
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    height: 800px;
+    vertical-align: top;
+    border-right: dashed;
+    margin: 30px 0 50px 50px;
+    border-color: rgba(37, 42, 47, 0.7);
+    overflow: hidden;
+}
+
+.column1 p {
+    padding-left: 30px;
+    font-size: 15px;
+    text-align: left;
+    margin: 20px 50px 0 0;
+}
+
+.column2 {
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    margin: 30px 0;
+    width: 30%;
+    height: 800px;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.column3 {
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    margin: 30px 0;
+    width: 30%;
+    height: 800px;
+    vertical-align: top;
+    overflow: hidden;
+    border-left: dashed;
+    border-color: rgba(37, 42, 47, 0.7);
+}
+
+.column3 p {
+    padding-left: 30px;
+    font-size: 15px;
+    text-align: left;
+    margin: 20px 50px 0 0;
+}
+
+.courseText {
+    font-size: 23px;
+    color: rgba(135, 35, 35, 0.94);
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.courseText2 {
+    font-size: 23px;
+    color: rgb(54, 76, 37);
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.courseP {
+    margin: 40px 50px 0 50px;
+    padding: 0;
+    font-size: 17px;
+    font-style: oblique;
+}
+
+.courseSpace {
+    margin-right: 20px;
+}
+
+.priceImg {
+    margin: 40px 40px 20px 40px;
+    width: 80%;
+    height: 600px;
+    background-size: cover;
+    background-image: url('../img/price-1.jpg');
+    background-position: center;
+}
+
+.coursePlace1 {
+    background-image: url('../img/class.jpg');
+    margin: 40px 30px 20px 30px;
+    width: 80%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.coursePlace2 {
+    background-image: url('../img/catClothes.jpg');
+    margin: 30px 30px 20px 30px;
+    width: 80%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.coursePlace3 {
+    background-image: url('../img/Shooting_range_near_Pittsburgh_-_outside_11.JPG');
+    margin: 20px 30px 20px 30px;
+    width: 80%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.coursePlace4 {
+    background-image: url('../img/study.jpg');
+    margin: 40px 30px 20px 30px;
+    width: 80%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.coursePlace5 {
+    background-image: url('../img/shootingGround.jpg');
+    margin: 87px 30px 20px 30px;
+    width: 80%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.coursePlace6 {
+    background-image: url('../img/exam.jpg');
+    margin: 58px 30px 20px 30px;
+    width: 80%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.courseApply {
+    display: none;
+    text-align: center;
+    margin: 40px 40px 30px 40px;
+    height: 400px;
+    border: solid;
+    border-width: 1px;
+    padding: 30px;
+    border-color: #999999;
+    background-image: url('../img/Untitled-5.jpg');
+}
+
+.courseApplyInputs {
+    height: 270px;
+    text-align: right;
+    margin-top: 70px;
+    margin-right: 30px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.coursePhotoPrev {
+    width: 300px;
+    margin: 70px 30px 0 30px;
+    display: inline-block;
+    height: 270px;
+
+}
+
+.coursePhoto {
+    border: solid 1px darkgrey;
+    width: 300px;
+    height: 196px;
+    background-image: url('../img/preview.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.coursePhotoInput {
+    margin-top: 15px;
+}
+
+#inputs span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #343a3f;
+    padding-right: 70px;
+}
+
+input {
+    text-align: center;
+    vertical-align: top;
+    margin-top: 0;
+    width: 170px;
+}
+
+#pointer {
+    cursor: pointer;
+}
+
+.shop {
+    background-image: url("../img/halftone.png");
+    margin-bottom: 30px;
+}
+
+#shopSlider {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+#shopSlider .slides {
+    display: block;
+    width: 5250px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.slides img {
+    background-position: center;
+}
+
+#shopSlider .slide {
+    float: left;
+    list-style-type: none;
+    width: 1050px;
+    height: 200px;
+}
+
+.sliderText {
+    padding-top: 60px;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.filterContainer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    height: 35px;
+    overflow: hidden;
+}
+
+.filter {
+    position: absolute;
+    font-size: 13px;
+    height: 34px;
+    line-height: 30px;
+    left: 45px;
+    width: 890px;
+    color: #dadada;
+    background-color: rgb(48, 55, 64);
+    border-radius: 5px;
+}
+
+.filter a {
+    padding-top: 2px;
+    font-weight: bold;
+    /*color: #045432;*/
+}
+
+.filter input {
+    margin-top: 12px;
+    width: 10px;
+    margin-left: 18px;
+}
+
+.home {
+    display: inline-block;
+    margin-right: 230px;
+}
+
+.home a {
+    /*color: rgba(135, 35, 35, 0.94);*/
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.home a:hover {
+    color: rgba(199, 43, 43, 0.94);
+}
+
+.product {
+    position: relative;
+    width: 325px;
+    height: 200px;
+    display: inline-block;
+    margin: 0 10px 10px 10px;
+    background-size: cover;
+    overflow: hidden;
+    border-right: solid 1px rgba(135, 35, 35, 0.94);
+    border-left: solid 1px rgba(135, 35, 35, 0.94);
+    border-top: solid 1px rgba(135, 35, 35, 0.94);
+}
+
+.product:hover .price {
+    top: 0;
+}
+
+
+.price {
+    transition: all 0.5s ;
+    -webkit-transition: all 0.5s ;
+    -moz-transition: all 0.5s;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 85%;
+    background-color: rgba(21, 22, 28, 0.80);
+    text-align: center;
+    line-height: 30px;
+    color: #d8d8d8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.line {
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.clear {
+    clear: both;
+}
+
+.map-container {
+    position: absolute;
+    overflow: hidden;
+    width: 1050px;
+    height: 100%;
+    display: block;
+}
+
+#mapButtonEn {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    right: 80px;
+    color: #dedede;
+    position: absolute;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    width: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+    cursor: pointer;
+}
+
+#mapButtonEn:hover {
+    background-color: rgba(79, 20, 20, 0.94);
+}
+
+#mapButtonDis {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    right: 180px;
+    color: #dedede;
+    position: absolute;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    width: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+    cursor: pointer;
+}
+
+#mapButtonDis:hover {
+    background-color: rgba(79, 20, 20, 0.94);
+}
+
+#map-canvas {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+
+#mapHeader {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #dedede;
+    position: absolute;
+    margin: 300px 0 0 0;
+    padding-top: 0;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+}
+
+#mapText {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #dedede;
+    position: absolute;
+    margin: 400px 0 0 0;
+    padding: 15px 15px 15px 60px;
+    width: 480px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+}
+
+.itemHeader {
+    width: 100%;
+    height: 200px;
+    background: url('../img/hunts4.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+.itemHeaderText {
+    line-height: 200px;
+    color: rgb(212, 219, 211);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: black 1px 0px,
+                 black 1px 1px,
+                 black 0px 1px,
+                 black -1px 1px,
+                 black -1px 0px,
+                 black -1px -1px,
+                 black 0px -1px,
+                 black 1px -1px;
+}
+
+.itemPhoto {
+    float: left;
+    width: 300px;
+    height: 240px;
+    margin-top: 20px;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.67) 0 0 3px 0;
+}
+
+.itemDescription {
+    display: inline-block;
+    width: 400px;
+    height: 240px;
+    background-color: #e1e1e1;
+    margin-top: 20px;
+    margin-left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.67) 0 0 3px 0;
+}
+
+.pridumayClass {
+    height: 120px;
+    width: 740px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 120px;
+    background-image: url('../img/w4.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: inline-block;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.67) 0 0 3px 0;
+}
+
+.pridumayClass a {
+    font-weight: bold;
+    color: rgb(245, 245, 245);
+    font-size: 24pt;
+    text-shadow: #000000 0px 0px 20px;
+}
+
+.pridumayClass a:hover {
+    text-shadow: #6a1b1b 0px 0px 20px;
+}
+
+.relatedItemsText {
+    margin-top: 50px;
+    margin-left: 235px;
+    width: 740px;
+    height: 30px;
+    background-color: #303740;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(244, 242, 233);
+}
+
+.relatedItems {
+    width: 738px;
+    margin-left: 235px;
+    height: 170px;
+    background-color: #e1e1e1;
+    overflow-y: hidden;
+    padding-top: 10px;
+    border: 1px solid rgb(188, 188, 188);
+}
+
+.relatedProduct {
+    background-size: cover;
+    background-position: center;
+    margin: 10px 15px 0 15px;
+    display: inline-block;
+    height: 110px;
+    width: 110px;
+}
+
+.relatedText {
+    margin: 0 0 0 10px;
+    text-align: center;
+    padding-top: 10px;
+    height: 30px;
+}
+
+.relatedText a {
+    color: rgba(135, 35, 35, 0.94);
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.productWrapper {
+    display: inline-block;
+    text-align: center;
+    height: 190px;
+    width: 170px;
+}
+
+.productWrapper:hover a {
+    color: rgba(205, 56, 56, 0.94);
+    text-decoration: underline;
+}
+
+.itemName {
+    padding-top: 30px;
+    margin-left: 30px;
+    height: 200px;
+    display: inline-block;
+    line-height: 34px;
+}
+
+/*IMAGE*/
+.viewport {
+    float: left;
+    height: 195px;
+    margin: 0 12px 12px 0;
+    overflow: hidden;
+    position: relative;
+    width: 225px;
+
+}
+
+.viewport:hover {
+    -webkit-box-shadow:  rgba(0, 0, 0, 0.3) 0 0 4px 0;
+    -moz-box-shadow:  rgba(0, 0, 0, 0.3) 0 0 4px 0;
+    -o-box-shadow:  rgba(0, 0, 0, 0.3) 0 0 4px 0;
+    box-shadow:  rgba(0, 0, 0, 0.3) 0 0 4px 0;
+}
+
+.viewport:hover .itemPric {
+    border-bottom-color: rgba(53, 53, 73, 0.41);
+}
+
+.no-margin {
+    margin-right: 0;
+}
+
+.viewport a {
+    height: 130px;
+    width: 225px;
+    display: block;
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.viewport a img {
+    height: 130px;
+    position: relative;
+    width: 225px;
+}
+
+.pagination {
+    bottom: 20px;
+    height: 30px;
+    width: 700px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    position: absolute;
+}
+
+.viewport a span {
+    display: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    height: 100%;
+    padding-top: 45px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    z-index: 100;
+}
+.viewport a span em {
+    display: block;
+    font-size: 0.5em;
+    font-weight: normal;
+}
+
+.dark-background {
+    background-color: rgba(18, 9, 15, 0.60);
+    color: #fff;
+    text-shadow: #000 0px 0px 20px;
+}
+.dark-background em {
+    color: #ccc;
+}
+
+.homeFromItem {
+    display: block;
+    margin: 20px 0 0 30px;
+}
+
+.homeFromItem a{
+     color: rgba(135, 35, 35, 0.94);
+     font-weight: bold;
+     text-transform: uppercase;
+     font-size: 15px;
+ }
+
+.homeFromItem a:hover {
+    color: rgba(183, 51, 51, 0.94);
+}
+
+.productDescription {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 235px;
+    width: 700px;
+    min-height: 75px;
+    max-height: 278px;
+    background-color: #F9F9F9;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.67) 0 0 3px 0;
+}
+
+.category {
+    display: block;
+    border: 3px solid #eee;
+    float: left;
+    height: 230px;
+    width: 340px;
+    margin: 0 9px 9px 0;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.category:hover {
+    -webkit-box-shadow:  rgba(0, 0, 0, 1) 0 0 4px 0;
+    -moz-box-shadow:  rgba(0, 0, 0, 1) 0 0 4px 0;
+    -o-box-shadow:  rgba(0, 0, 0, 1) 0 0 4px 0;
+    box-shadow:  rgba(0, 0, 0, 1) 0 0 4px 0;
+}
+
+.categoryLink {
+    padding: 0;
+    display: block;
+    width: 325px;
+    height: 230px;
+    text-align: center;
+    line-height: 230px;
+    font-size: 40px;
+    color: rgb(212, 219, 211);
+    text-shadow:
+        black 1px 0px,
+        black 1px 1px,
+        black 0px 1px,
+        black -1px 1px,
+        black -1px 0px,
+        black -1px -1px,
+        black 0px -1px,
+        black 1px -1px;
+}
+
+.itemDes {
+    height: 60px;
+    background-color:white;
+}
+
+.itemNam {
+    font-family: 'Open Sans', sans-serif;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #193f33;
+    border-top: solid 1px #dddddd;
+}
+
+.itemPric {
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    border-bottom: solid 5px #dddddd;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+#showForm {
+    margin-left: 41%;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: rgb(67, 124, 79);
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(216, 216, 216);
+    border-radius: 6px;
+    border-width: 1px;
+}
+
+#showForm:hover {
+    background-color: rgb(52, 104, 60);
+}
+
+.alert-success {
+    padding: 15px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-success a {
+    text-decoration: none;
+    color: #3C763D;
+}
+
+.alert-warning {
+    padding: 15px;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.alert-warning a {
+    color: #9B0C0C;
+    font-weight: bold;
+}
+
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}

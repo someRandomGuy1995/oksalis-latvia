@@ -1,0 +1,1 @@
+<textarea class="ckeditor" name="page"></textarea>

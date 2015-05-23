@@ -1,0 +1,1 @@
+<textarea class="ckeditor" name="news"></textarea>
